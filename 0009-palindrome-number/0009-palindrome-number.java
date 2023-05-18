@@ -3,7 +3,6 @@ class Solution {
         String number;
         String reverse = "";
         char ch;
-        boolean flag;
         number = Integer.toString(x);
         for (int i = 0 ; i< number.length(); i++){
             ch= number.charAt(i); //extracts each character at index i
